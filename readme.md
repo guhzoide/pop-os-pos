@@ -16,7 +16,7 @@
  		Para utilizar o srcipt basta copiar a pasta /pop-os-pos-main para os Documentos  
 	e dar permissão de execução.                                                       
   		Em seguida execute o shell:                                                      
-  		./instalar                                                                       
+  		./install                                                                       
                                                                                    
   		Caso queira adicionar mais algum pacote basta baixar o .deb e colocar            
 	na pasta /packages dentro de /pop-os-pos-main ou adcionar na lista repo|flat        
