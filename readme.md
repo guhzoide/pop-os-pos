@@ -19,13 +19,14 @@
   		./instalar                                                                       
                                                                                    
   		Caso queira adicionar mais algum pacote basta baixar o .deb e colocar            
-	na pasta /pacotes dentro de /pop-os-pos-main ou adcionar na lista repo|flat        
-	no diretorio /pop-os-pos-main/lista/                                               
+	na pasta /packages dentro de /pop-os-pos-main ou adcionar na lista repo|flat        
+	no diretorio /pop-os-pos-main/list/                                               
 
 
 	-ENGLISH-
-		To use srcipt just copy the /pop-os-pos-main folder to Documents
-	and give execution permission.
+		To use srcipt just copy the /pop-os-pos-main folder to Documents,
+	give execution permission and rename the directory in scrit, where it says 'Documentos' 
+	change it to 'Documents'.
   		Then run the shell:
   		./install
                                                                                    
