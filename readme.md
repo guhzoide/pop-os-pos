@@ -30,7 +30,7 @@
   		Then run the shell:
   		./install
                                                                                    
-  		If you want to add some more package, just .deb and put
+  		If you want to add some more package, just download the .deb and put
 	in the /packages folder inside /pop-os-pos-main or add to the repo|flat list
-	in the /pop-os-pos-main/list/ directory
+	in the /pop-os-pos-main/list/ directory.
 #------------------------------------------------------------------------------------------------------------------------------#
