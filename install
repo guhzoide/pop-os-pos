@@ -1,0 +1,30 @@
+#!/bin/bash
+
+clear
+
+#Directory of packages .deb 
+cd /home/$USER/Documentos/pop-os-pos-main/packages
+
+#Installation of .deb's
+sudo apt install --yes -f
+sudo dpkg -i *.deb
+sudo apt install --yes -f
+
+#Installation of packages through the repositories
+while read line
+do
+	sudo apt install --yes $line
+done < /home/$USER/Documentos/pop-os-pos-main/list/repo
+
+#Installation of flatpak packages
+while read line
+do
+	flatpak install -y $line
+done < /home/$USER/Documentos/pop-os-pos-main/list/flat
+
+#Actualization
+sudo apt update && sudo apt upgrade
+
+echo -e "\e[00;32mAll done\e[00m"
+echo -e "\e[00;31mVerify if some error ocurred\e[00m"
+read
