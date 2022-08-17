@@ -2,14 +2,6 @@
 
 clear
 
-#Directory of packages .deb 
-cd /home/$USER/Documentos/pop-os-pos-main/packages
-
-#Installation of .deb's
-sudo apt install --yes -f
-sudo dpkg -i *.deb
-sudo apt install --yes -f
-
 #Installation of packages through the repositories
 while read line
 do
