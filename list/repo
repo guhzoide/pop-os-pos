@@ -7,7 +7,6 @@ synaptic
 scrcpy
 flatpak
 remmina
-retroarch
 krita
 vlc
 cheese
@@ -21,4 +20,3 @@ default-jdk
 dxvk
 gnome-tweaks
 krusader
-mpg123
