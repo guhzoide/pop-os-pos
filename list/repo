@@ -4,13 +4,9 @@ discord
 obs-studio
 flameshot
 synaptic
-scrcpy
 flatpak
 remmina
-krita
 vlc
-cheese
-pulseeffects
 htop
 rar
 visual-studio-code
@@ -19,5 +15,3 @@ default-jre
 default-jdk
 dxvk
 gnome-tweaks
-krusader
-timeshift
