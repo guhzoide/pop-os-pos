@@ -1,7 +1,6 @@
 steam
 lutris
 discord
-obs-studio
 flameshot
 synaptic
 flatpak
@@ -15,3 +14,4 @@ default-jre
 default-jdk
 dxvk
 gnome-tweaks
+neofetch
