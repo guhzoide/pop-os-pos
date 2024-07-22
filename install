@@ -11,7 +11,7 @@ done < /home/$USER/Documentos/pop-os-pos-main/list/repo
 #Installation of flatpak packages
 while read line
 do
-	flatpak install -y $line
+	flatpak install flathub -y $line
 done < /home/$USER/Documentos/pop-os-pos-main/list/flat
 
 #Actualization
