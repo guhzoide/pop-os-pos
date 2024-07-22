@@ -1,4 +1,4 @@
-stremio
-spotify
-parsec
-qbittorrent
+com.stremio.Stremio
+com.spotify.Client
+com.parsecgaming.parsec
+org.qbittorrent.qBittorrent
