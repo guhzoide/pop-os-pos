@@ -6,13 +6,13 @@ clear
 while read line
 do
 	sudo apt install --yes $line
-done < /home/$USER/Documentos/pop-os-pos-main/list/repo
+done < /home/$USER/Documentos/pop-os-pos/list/repo
 
 #Installation of flatpak packages
 while read line
 do
 	flatpak install flathub -y $line
-done < /home/$USER/Documentos/pop-os-pos-main/list/flat
+done < /home/$USER/Documentos/pop-os-pos/list/flat
 
 #Actualization
 sudo apt update && sudo apt upgrade
